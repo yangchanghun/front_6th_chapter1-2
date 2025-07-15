@@ -23,6 +23,6 @@ export function createVNode(type, props, ...children) {
 // createVNode(
 //   "div",
 //   null,
-//   createVNode("span", null, "Shown"), // ✅ 이건 들어감
-//   false                                // ❌ 이건 그대로 false로 남음
+//   createVNode("span", null, "Shown"),
+//   false
 // )
